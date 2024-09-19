@@ -1,41 +1,62 @@
-# Trade Analysis Project
+# Trade Flow Efficiency Analysis
 
 ## Project Overview
-This project focuses on analyzing international trade patterns by examining imports and exports across various countries, products, and time periods. By leveraging a dataset containing transaction-level details, the analysis aims to uncover trade flow dynamics, highlight seasonal or regional variations, and identify the most frequently traded goods, offering insights into global trade behaviors.
+This project analyzes **trade flow efficiency** by examining **supplier behavior**, **payment terms**, and **order timing patterns**. The study uncovers key insights into **trade dynamics**, **frequently traded goods**, and **seasonal or regional variations** to provide actionable insights to optimize global trade processes.
 
-## Objectives
-- Identify key trends in import and export volumes over time.
-- Analyze trade flows between countries and regions.
-- Examine the most frequently traded products and categories.
-- Highlight seasonal or time-based trends in global trade.
+## Problem Statement
+This project aims to **understand the drivers of trade flow efficiency** through the analysis of various trade components such as supplier behavior, payment terms, and order timing. This study aims to identify key trends in international trade, uncover trade flow dynamics, and assess frequently traded goods. Additionally, it highlights seasonal and regional variations to derive actionable insights for optimizing trade operations.
+
+## Key Features
+- Analysis of **supplier behavior**, **payment terms**, and **order timing**.
+- Identification of **top exporting/importing countries** and **most frequently traded goods**.
+- Examination of **trade balance** and **market trends** across different years and regions.
+- Insights into **preferred payment terms** and **order timing patterns**.
+- Use of **statistical metrics** such as mode, range, skewness, and kurtosis for trade pattern analysis.
 
 ## Dataset
-The dataset used for this analysis contains the following key features:
-- **Transaction ID**: Unique identifier for each trade transaction.
-- **Country**: The country involved in the trade.
-- **Product**: Description of the product being traded.
-- **Import/Export**: Indicator of whether the transaction is an import or export.
-- **Quantity**: Quantity of goods traded.
-- **Value**: Monetary value of the transaction.
-- **Date**: Date of the transaction.
-- **Category**: Product category.
-- **Port**, **Customs Code**, **Weight**, **Shipping Method**: Additional trade and logistical details.
+The dataset includes records of imports and exports across various countries, detailing:
+- **Quantity** of traded goods
+- **Transaction Value** 
+- **Customs Code**
+- **Weight** of shipments
+- **Payment Terms**
+- **Supplier and Buyer Information**
+- **Year and Month** of transactions
 
-## Analysis Approach
-1. **Data Cleaning**: Remove duplicates, handle missing data, and ensure consistency in the dataset.
-2. **Exploratory Data Analysis (EDA)**: Visualize trade trends, country-level trade volumes, and product-level patterns.
-3. **Trade Flow Analysis**: Analyze imports and exports by country, product, and time period.
-4. **Trend Analysis**: Identify seasonal and regional trends in trade patterns.
-5. **Insights and Recommendations**: Provide actionable insights for stakeholders based on the analysis results.
+## Key Insights and Recommendations
+1. **Leverage Export Strengths**:
+   - Focus on strengthening relationships with countries like India, Congo, and Maldives, as they are top exporters.
+   - Prioritize high-revenue products like *onto* and identify similar potential products.
 
-## Requirements
-- Python 3.x
-- Jupyter Notebook
-- Libraries: 
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
+2. **Address Import-Export Imbalances**:
+   - Countries like Bahrain should focus on increasing domestic production to reduce trade balance deficits.
+   - Implement policies encouraging local production of highly imported goods to decrease reliance on foreign products.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+3. **Product Portfolio Optimization**:
+   - Products like *now* are highly exported but do not generate the most revenue, indicating potential for improvement through strategic pricing or marketing.
+
+4. **Supplier Relationship Management**:
+   - Build long-term partnerships with major suppliers such as Wright Group and Brown PLC to enhance efficiency and cost-effectiveness.
+
+5. **Optimize Payment Terms**:
+   - Align payment terms with country preferences. For instance, Bahrain prefers **Cash on Delivery**, while **Net 30** is popular in India.
+
+6. **Seasonal Import Trends**:
+   - Use peak import months like **August 2018** to optimize inventory management and plan logistics in advance.
+
+7. **Mitigate External Risks**:
+   - The sharp drop in exports in **2019**, likely due to **COVID-19**, indicates a need for diversified markets and products to reduce vulnerability to global disruptions.
+
+## Technologies Used
+- Python for data analysis and processing
+- Pandas and NumPy for data manipulation
+- Matplotlib and Seaborn for data visualization
+- Jupyter Notebook for interactive data exploration
+- Git for version control
+
+## Contributors
+Shefali Dhingra
+Mohit Agarwal
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
