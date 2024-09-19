@@ -55,8 +55,8 @@ The dataset includes records of imports and exports across various countries, de
 - Git for version control
 
 ## Contributors
-Shefali Dhingra
-Mohit Agarwal
+- Shefali Dhingra
+- Mohit Agarwal
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
