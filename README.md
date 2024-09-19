@@ -37,23 +37,5 @@ The dataset used for this analysis contains the following key features:
   - matplotlib
   - seaborn
 
-## Usage
-1. Clone this repository:
-   ```
-   git clone https://github.com/your-username/trade-analysis.git
-   ```
-2. Install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Open the Jupyter Notebook:
-   ```
-   jupyter notebook Trade_Analysis.ipynb
-   ```
-4. Run the analysis by following the steps in the notebook.
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contributions
-Feel free to submit issues or pull requests to contribute to the project. All contributions are welcome!
